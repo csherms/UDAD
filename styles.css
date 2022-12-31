@@ -4,10 +4,6 @@
   padding: 0;
 }
 
-body {
-  background-color: #eee;
-}
-
 nav {
   display: flex;
   justify-content: center;
@@ -34,6 +30,7 @@ nav li {
   color: red;
   background-color: black;
   margin: 20px;
+  margin-bottom: 20px;
   padding: 3px;
   text-align: center;
   border-radius: 8px;
@@ -47,16 +44,17 @@ nav li:hover {
 }
 
 main {
-  background-color: #c8c8c8;
+  background-color: #bfbfbf;
   text-align: center;
   padding: 20px;
 }
 
 .description {
-  border: 3px solid #404040;
+  border: 3px solid #0d0d0d;
   padding: 10px;
   border-radius: 5px;
-  background-color: #f3f3f3;
+  background-color: #f2f2f2;
+  margin-top: 20px;
 }
 
 .hat-pics {
@@ -71,10 +69,14 @@ main {
   border: 3px solid #404040;
   margin: 8px;
   padding: 20px;
-  background-color: #f3f3f3;
+  background-color: #f2f2f2;
   box-shadow: 5px 5px 5px rgb(0, 0, 0);
 }
 
 .hat-pics img {
   height: 50px;
+}
+
+footer {
+  background-color: #f2f2f2;
 }
